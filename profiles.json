@@ -88,9 +88,13 @@
     // Add any keybinding overrides to this array.
     // To unbind a default keybinding, set the command to "unbound"
     "keybindings": [
-		{ "command": "closeWindow", "keys": ["ctrl+q"] },
+		{ "command": "closePane", "keys": ["ctrl+shift+q"] },
 		{ "command": "splitHorizontal", "keys": ["ctrl+h"]},
-		{ "command": "splitVertical", "keys": ["ctrl+v"]}
+		{ "command": "splitVertical", "keys": ["ctrl+g"]},
+		{ "command": "newTab", "keys": ["ctrl+t"]},
+		{ "command": "closeTab", "keys": ["ctrl+q"]},
+		{ "command": "copy", "keys": ["ctrl+c"] },
+		{ "command": "paste", "keys": ["ctrl+v"] }
 		
 	]
 }
